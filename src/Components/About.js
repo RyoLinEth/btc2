@@ -6,7 +6,7 @@ class About extends Component {
     if (!this.props.data) return null;
 
     const name = this.props.data.name;
-    const profilepic = "images/" + this.props.data.image;
+    const profilepic = "images/" + "bitcoin.png";
     const tokenbio = this.props.data.tokenbio;
     const street = this.props.data.address.street;
     const city = this.props.data.address.city;
@@ -23,7 +23,7 @@ class About extends Component {
             <div className="three columns">
               <img
                 className="profile-pic"
-                // src={profilepic}
+                src={profilepic}
                 alt="BTC 2.0 PIC"
               />
             </div>
