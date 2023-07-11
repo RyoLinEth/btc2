@@ -55,12 +55,12 @@ class Resume extends Component {
     });
 
     return (
-      <section id="resume">
+      <section id="mechanism">
         <Slide left duration={1300}>
           <div className="row education">
             <div className="three columns header-col">
               <h1>
-                <span>Education</span>
+                <span>Mechanism</span>
               </h1>
             </div>
 
@@ -72,7 +72,7 @@ class Resume extends Component {
           </div>
         </Slide>
 
-        <Slide left duration={1300}>
+        {/* <Slide left duration={1300}>
           <div className="row work">
             <div className="three columns header-col">
               <h1>
@@ -100,7 +100,7 @@ class Resume extends Component {
               </div>
             </div>
           </div>
-        </Slide>
+        </Slide> */}
       </section>
     );
   }
